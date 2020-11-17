@@ -9,8 +9,7 @@ Para parsear el contenido del archivo en un objeto java utilizaremos anotaciones
            <br/>
            ... otros atributos ...<br/>
           ....getters & setters...<br/> 
-           <br/>               
-}<br/></i>
+     }<br/></i>
 De esta forma podremos parsear directamente cada fila del fichero csv en una lista de objetos correspondiente a MiClase (POJO). Las estructuras de datos y métodos que debemos usar son los siguientes:<br/>
 a) Métodos para leer el fichero csv y cargarlo en la lista anterior: <br/>
         <i>BufferedReader fileReader = new BufferedReader(new FileReader("path a mi fichero csv"));<br/>
