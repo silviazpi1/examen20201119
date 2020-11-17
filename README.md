@@ -6,7 +6,7 @@ Para parsear el contenido del archivo en un objeto java utilizaremos anotaciones
            ...<br/>
            @CSVBindByName<br/>
            private String Columna1;<br/>
-           ....<br/>
+           ....getters & setters...<br/> 
            <br/>               
     }<br/></i>
 De esta forma podremos parsear directamente cada fila del fichero csv en una lista de objetos correspondiente a MiClase (POJO). Las estructuras de datos y métodos que debemos usar son los siguientes:<br/>
