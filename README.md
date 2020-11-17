@@ -15,6 +15,6 @@ a) Métodos para leer el fichero csv y cargarlo en la lista anterior: <br/>
                                  .withType(MiClase.class)<br/>
                                  .withIgnoreLeadingWhiteSpace(true) // Para ignorar blancos<br/>
                                  .build()<br/><i/>
-b) Parsear el la lista de objetos csv a una lista de objetos de MiClase:<br/>
+b) Parsear la lista de objetos csv a una lista de objetos de MiClase:<br/>
            <i>List<MiClase> objetosDeMiClase = csvToBean.parse();<br/></i>
 Una vez dispongamos de esta lista podemos realizar la serialización de objetos para generar el fichero JSON.
