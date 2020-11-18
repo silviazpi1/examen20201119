@@ -1,5 +1,5 @@
 // lectura del fichero csv mediante el objeto plano y su carga en una lista de objeto de este tipo
-package ...;
+package org.dis;
 
 import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder;
