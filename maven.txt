@@ -17,3 +17,4 @@ con el framework de Maven desde un inicio.
 7. He empezado a redactar este documento
 8. A partir de aquí voy a realizar las features que requiere el ejercicio específicamente
 9. Estoy intentando que las dependencias funcionen
+10. Con lo que tengo genero una release
