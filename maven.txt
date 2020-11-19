@@ -4,8 +4,9 @@ Para el desarrollo del ejercicio, he llevado a cabo los siguientes pasos:
 
 1. Fork del repositorio carlos-ufv a mi cuenta de Github (https://github.com/carlos-ufv/P1)
 2. Creación de un proyecto en el IDE IntelliJ a partir de un control de versiones (desde el repositorio
-que acabo de forkear: https://github.com/silviazpi1/P1.git)
-3. Actualización del POM:
+que acabo de forkear: https://github.com/silviazpi1/P1.git). Esto equivale a un clone y me permite trabajar
+con el framework de Maven desde un inicio.
+3. Actualización del POM (project object model):
     A partir de un archetype maven quickstart
     Editar el comilador a 1.8
     Ajustar el plugin de maven-jar-plugin para generar el .jar requerido
