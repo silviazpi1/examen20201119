@@ -9,7 +9,7 @@ import com.opencsv.bean.CsvToBeanBuilder;
 public class LeerCSV {
 
     public List<golfPlayer> parseaCSV(String path) {
-        ....
+
         List<golfPlayer> players = csvToBean.parse();
         return players;
     }
