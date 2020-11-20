@@ -16,7 +16,7 @@ public class LeeCSV {
 
         BufferedReader fileReader = null;
         try {
-            fileReader = new BufferedReader(new FileReader("best-golf-players.csv"));
+            fileReader = new BufferedReader(new FileReader(path));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
