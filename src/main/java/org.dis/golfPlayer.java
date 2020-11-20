@@ -7,14 +7,14 @@ public class golfPlayer {
 
     }
 
+    @CsvBindByName(column = "Posicion", required = true)
+    private String Posicion;
+
     @CsvBindByName(column = "Nombre", required = true)
     private String Nombre;
 
     @CsvBindByName(column = "Apellido", required = true)
     private String Apellido;
-
-    @CsvBindByName(column = "Posicion", required = true)
-    private String Posicion;
 
     @CsvBindByName(column = "Pais", required = true)
     private String Pais;
