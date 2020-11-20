@@ -2,7 +2,10 @@
 package org.dis;
 
 import com.google.gson.JsonObject;
+import com.google.gson.Gson;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.List;
 
 public class EscribeJSON {
@@ -11,13 +14,13 @@ public class EscribeJSON {
 
         LeeCSV FicheroCsv = new LeeCSV();
         List<golfPlayer> jugadores = FicheroCsv.parseaCSV("./best-golf-players.csv");
-        int numero_jugadores = jugadores.size();
 
-        JsonObject FicheroJson = new JsonObject();
-        FicheroJson.getAsJsonArray();
+        Gson FicheroJson = new Gson();
 
-        for(int i = 0; i < numero_jugadores; i++){
-            //FicheroJson
+        try {
+            FicheroJson.toJson(jugadores, new FileWriter("./best-golf-players.json"));
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
  }
